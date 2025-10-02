@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRISH GUPTA - Portfolio</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <span class="code-bracket">&lt;</span>
+                <span class="name-text">KRISH GUPTA</span>
+                <span class="code-bracket">/&gt;</span>
+                <span class="cursor">|</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" data-text="home()">Home</a></li>
+                <li><a href="#about" data-text="about()">About</a></li>
+                <li><a href="#skills" data-text="skills()">Skills</a></li>
+                <li><a href="#projects" data-text="projects()">Projects</a></li>
+                <li><a href="#contact" data-text="contact()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Krish Gupta</h1>
+            <p>Creative Professional & Frontend Developer</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-img">
+                    <img src="photo_portfolio.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Passionate About Creating</h3>
+                    <p>I'm a dedicated professional with a passion for creating innovative solutions and beautiful
+                        designs. I bring creativity, technical skills, and attention to detail to every project.</p>
+                    <p>I believe in the power of good design and clean code to solve real-world problems and create
+                        meaningful experiences for users.</p>
+                    <p>When I'm not working, you can find me exploring new technologies, reading design blogs, or
+                        enjoying football.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe Creative Suite, Prototyping</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="github_ran_repo.jpg" alt="github">
+                    </div>
+                    <div class="project-content">
+                        <h3><br><br><br>Github Random Repository Finder</h3>
+                        <p>This Repository Finder lets users pick a programming language from a dropdown, fetches a
+                            random repository matching that language using the GitHub Search API’s “Search repositories”
+                            endpoint, and displays name, description, stars, forks, and open issues.</p>
+                        <div class="project-links">
+                            <a href="https://github-random-repository-finder.vercel.app/">Live Demo</a>
+                            <a href="https://github.com/krishAkg2006">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="nasa.jpg" alt="Screenshot of NASA APOD Space Picture Viewer"
+                            width="1200" height="350" loading="lazy">
+                    </div>
+
+                    <div class="project-content">
+                        <h3><br><br>NASA APOD Space Picture Viewer</h3>
+                        <p>The NASA APOD Space Picture Viewer is a simple, responsive web app that fetches and displays
+                            NASA’s Astronomy Picture of the Day using the official APOD API. It automatically shows
+                            today’s astronomy image (or video) with its title, date, and explanatory description, and
+                            lets users navigate to previous or later dates using Previous/Next buttons. The app includes
+                            a loading state while data is being fetched and friendly error messages if the request fails
+                            (for example, network issues or API rate limits). It adapts to mobile and desktop screens,
+                            supports both image and embedded video media types returned by APOD, and requires a free
+                            NASA API key configured in the request URL.</p>
+                        <div class="project-links">
+                            <a href="https://nasaapod-eight.vercel.app/">Live Demo</a>
+                            <a href="https://github.com/krishAkg2006">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new opportunities and interesting projects. Let's connect!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="mailto:krishgupta026.kg@gmail.com" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/krish-gupta-aa197a300/" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/krishAkg2006" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://x.com/krishgupta91098" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/krish_2006_g/" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Krish Gupta. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+            if (window.scrollY > 100) {
+                nav.classList.add('scrolled');
+                nav.style.setProperty('--scroll-glow', `${Math.min(scrollPercent, 100)}%`);
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Add typing effect to navigation links
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('mouseenter', function () {
+                const text = this.textContent;
+                this.style.setProperty('--original-text', `"${text}"`);
+            });
+        });
+
+        // Add random glitch effect to logo occasionally
+        setInterval(() => {
+            const logo = document.querySelector('.logo');
+            if (Math.random() < 0.1) {
+                logo.style.animation = 'none';
+                setTimeout(() => {
+                    logo.style.animation = '';
+                }, 100);
+            }
+        }, 2000);
+
+        // Form submission
+        document.querySelector('.contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Thank you for your message! I\'ll get back to you soon.');
+            this.reset();
+        });
+
+        // Intersection observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.skill-card, .project-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+
+</html>
+
